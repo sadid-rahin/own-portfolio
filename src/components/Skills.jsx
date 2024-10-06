@@ -6,37 +6,37 @@ const Skills = () => {
   const skills = [
     {
       name: "HTML5",
-      icon: "🌐",
+      icon: <img className='h-32' src="/src/assets/Image/html.png" alt="" />,
       link: "https://developer.mozilla.org/en-US/docs/Web/HTML",
       description: "Markup language for structuring web content.",
     },
     {
       name: "CSS3",
-      icon: "🎨",
+      icon: <img className='h-32' src="/src/assets/Image/css.png" alt="" />,
       link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
       description: "Stylesheets for designing visually appealing web pages.",
     },
     {
       name: "JavaScript",
-      icon: "⚡",
+      icon: <img className='h-32' src="/src/assets/Image/js.png" alt="" />,
       link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
       description: "Programming language for interactive web functionality.",
     },
     {
       name: "React",
-      icon: "⚛️",
+      icon: <img className='h-32' src="/src/assets/Image/react.png" alt="" />,
       link: "https://reactjs.org/",
       description: "JavaScript library for building user interfaces.",
     },
     {
       name: "Node.js",
-      icon: "🟩",
+      icon: <img className='h-32' src="/src/assets/Image/node-js.png" alt="" />,
       link: "https://nodejs.org/",
       description: "JavaScript runtime for server-side development.",
     },
     {
       name: "Tailwind CSS",
-      icon: "💨",
+      icon: <img className='h-32' src="/src/assets/Image/download.png" alt="" />,
       link: "https://tailwindcss.com/",
       description: "Utility-first CSS framework for styling web applications.",
     },
@@ -57,11 +57,11 @@ const Skills = () => {
               data-aos={index % 3 === 0 ? "fade-up-right" : index % 3 === 1 ? "fade-up" : "fade-up-left"}
             >
               <div
-                className="flex flex-col items-center cursor-pointer"
+                className="flex flex-col items-center  cursor-pointer"
                 onClick={() => window.open(skill.link, '_blank')} // Open the link in a new tab
               >
-                <span className="text-6xl mb-4">{skill.icon}</span>
-                <h3 className="mt-2 text-2xl font-semibold">{skill.name}</h3>
+                <span className=" mb-4">{skill.icon}</span>
+                <h3 className="mt-2 text-3xl  font-bold">{skill.name}</h3>
                 <p className="mt-3 text-gray-600 text-base max-w-xs">
                   {skill.description}
                 </p>

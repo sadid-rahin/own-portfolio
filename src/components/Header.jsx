@@ -139,18 +139,67 @@ const Header = () => {
                       </div>
                     </div>
                     <nav>
-                      <ul className="space-y-4">
+                      <ul className="space-y-4 text-gray-700">
                         <li>
                           <a
                             href="#hero"
                             aria-label="Home"
                             title="Home"
-                            className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                            className="font-medium tracking-wide  transition-colors duration-200 hover:text-deep-purple-accent-400"
                           >
                             Home
                           </a>
                         </li>
-                        {/* More menu items */}
+                        <li>
+                          <a
+                            href="#projects"
+                            aria-label="Projects"
+                            title="Projects"
+                            className="font-medium tracking-wide  transition-colors duration-200 hover:text-teal-accent-400"
+                          >
+                            Projects
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="#skills"
+                            aria-label="Skills"
+                            title="Skills"
+                            className="font-medium tracking-wide  transition-colors duration-200 hover:text-teal-accent-400"
+                          >
+                            Skills
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="#experience"
+                            aria-label="Experience"
+                            title="Experience"
+                            className="font-medium tracking-wide  transition-colors duration-200 hover:text-teal-accent-400"
+                          >
+                            Experience
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="#about"
+                            aria-label="About"
+                            title="About"
+                            className="font-medium tracking-wide  transition-colors duration-200 hover:text-teal-accent-400"
+                          >
+                            About
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="#contact"
+                            aria-label="Contact"
+                            title="Contact"
+                            className="font-medium tracking-wide  transition-colors duration-200 hover:text-teal-accent-400"
+                          >
+                            Contact
+                          </a>
+                        </li>
                       </ul>
                     </nav>
                   </div>

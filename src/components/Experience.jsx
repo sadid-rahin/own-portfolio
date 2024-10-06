@@ -21,7 +21,7 @@ let datas =  [
 const Experience = () => {
     return (
         <div className='bg-gray-100'id='experience'>
-            <h3 className='font-Roboto text-5xl font-extrabold text-center pt-10 text-gray-900'>WORK WITH</h3>
+            <h3 className='font-Roboto text-5xl font-extrabold text-center pt-10 text-gray-900'>WORKED WITH</h3>
             <div className='flex justify-between items-center container mx-auto '>
                 <div>
                     {
