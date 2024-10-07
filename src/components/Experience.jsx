@@ -4,12 +4,12 @@ import 'aos/dist/aos.css';
 let datas =  [
 
     {
-        picture: "/src/assets/Image/programminghero.png",
+        picture: "/Image/programminghero.png",
         name: "Programming Hero",
         duration: "6-months"
     },
     {
-        picture: "/src/assets/Image/creativeit.png",
+        picture: "/Image/creativeit.png",
         name: "Creative It",
         duration: "3-months"
     },
@@ -39,7 +39,7 @@ const Experience = () => {
                     }
                 </div>
                 <div>
-                    <img  data-aos="fade-left"  src="/src/assets/Image/experience.png" alt="" />
+                    <img  data-aos="fade-left"  src="/Image/experience.png" alt="" />
                 </div>
             </div>
         </div>

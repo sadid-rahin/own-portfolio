@@ -11,7 +11,7 @@ const About = () => {
           <img
             className=""
             data-aos="zoom-out-up"
-            src="/src/assets/Image/aboutme-removebg.png"
+            src="/Image/aboutme-removebg.png"
             alt="About Me"
           />
         </div>

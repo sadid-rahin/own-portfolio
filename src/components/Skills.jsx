@@ -6,37 +6,37 @@ const Skills = () => {
   const skills = [
     {
       name: "HTML5",
-      icon: <img className='h-32' src="/src/assets/Image/html.png" alt="" />,
+      icon: <img className='h-32' src="/Image/html.png" alt="" />,
       link: "https://developer.mozilla.org/en-US/docs/Web/HTML",
       description: "Markup language for structuring web content.",
     },
     {
       name: "CSS3",
-      icon: <img className='h-32' src="/src/assets/Image/css.png" alt="" />,
+      icon: <img className='h-32' src="/Image/css.png" alt="" />,
       link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
       description: "Stylesheets for designing visually appealing web pages.",
     },
     {
       name: "JavaScript",
-      icon: <img className='h-32' src="/src/assets/Image/js.png" alt="" />,
+      icon: <img className='h-32' src="/Image/js.png" alt="" />,
       link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
       description: "Programming language for interactive web functionality.",
     },
     {
       name: "React",
-      icon: <img className='h-32' src="/src/assets/Image/react.png" alt="" />,
+      icon: <img className='h-32' src="/Image/react.png" alt="" />,
       link: "https://reactjs.org/",
       description: "JavaScript library for building user interfaces.",
     },
     {
       name: "Node.js",
-      icon: <img className='h-32' src="/src/assets/Image/node-js.png" alt="" />,
+      icon: <img className='h-32' src="/Image/node-js.png" alt="" />,
       link: "https://nodejs.org/",
       description: "JavaScript runtime for server-side development.",
     },
     {
       name: "Tailwind CSS",
-      icon: <img className='h-32' src="/src/assets/Image/download.png" alt="" />,
+      icon: <img className='h-32' src="/Image/download.png" alt="" />,
       link: "https://tailwindcss.com/",
       description: "Utility-first CSS framework for styling web applications.",
     },

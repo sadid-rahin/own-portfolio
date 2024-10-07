@@ -17,7 +17,7 @@ const Hero = () => {
         <div className="lg:w-1/2 w-full p-4">
           <img
             className="w-full h-auto max-h-80 lg:max-h-full object-contain mx-auto"
-            src="/src/assets/Image/IMG_9916_1_-removebg-preview.png"
+            src="/Image/IMG_9916_1_-removebg-preview.png"
             alt="Developer"
           />
         </div>

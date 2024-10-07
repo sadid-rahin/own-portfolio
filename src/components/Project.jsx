@@ -8,21 +8,21 @@ const Projects = () => {
       id: 1,
       title: "Portfolio Website",
       description: "A personal portfolio website built with React and Tailwind CSS to showcase my skills and projects.",
-      img: "/src/assets/Image/DALL·E 2024-10-03 23.24.52 - A portfolio thumbnail design inspired by a minimalist and professional website. The background features a dark color scheme, with subtle gradients for.webp",
+      img: "/Image/DALL·E 2024-10-03 23.24.52 - A portfolio thumbnail design inspired by a minimalist and professional website. The background features a dark color scheme, with subtle gradients for.webp",
       techStack: "React, Tailwind CSS, JavaScript"
     },
     {
       id: 2,
       title: "E-commerce Store",
       description: "A fully functional e-commerce site with product listings, shopping cart, and user authentication.",
-      img: "/src/assets/Image/E-commerce.png",
+      img: "/Image/E-commerce.png",
       techStack: "React, Node.js, Express, MongoDB"
     },
     {
       id: 3,
       title: "Task Manager App",
       description: "A task management web application to help users organize their daily tasks and to-dos.",
-      img: "/src/assets/Image/Task Manager App.png", // Adjusted file name
+      img: "/Image/Task Manager App.png", // Adjusted file name
       techStack: "React, Firebase, Tailwind CSS"
     },
   ];
