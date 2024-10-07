@@ -12,7 +12,6 @@ import Sidebar from './components/Sidebar';
 function App() {
   return (
     <>
-      <div className='max-w-[1280px]'>
       <Sidebar />
       <Header />
       <Hero />
@@ -21,7 +20,6 @@ function App() {
       <Experience />
       <About />
       <Contact />
-      </div>
     </>
   );
 }

@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <div>
       <div className="absolute top-0 left-1/2 transform -translate-x-1/2 z-50 container mx-auto rounded-3xl bg-gray-900 font-Roboto">
-        <div className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-[1100px] md:px-24 lg:px-8">
+        <div className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
           <div className="relative flex items-center justify-between">
             <a
               href="/"
