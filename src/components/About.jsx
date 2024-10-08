@@ -28,7 +28,7 @@ const About = () => {
             href="/MD-Sadid-Rahin-Nohan.pdf"
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-5 inline-block  py-3 px-6 rounded-full bg-gray-900 text-white transition duration-300 cursor-pointer"
+            className="mt-5 inline-block bg-white text-gray-900 font-bold py-3 px-6 rounded-full hover:bg-gray-900 hover:text-white transition   duration-300 cursor-pointer"
           >
             RESUME
           </a>

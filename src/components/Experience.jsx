@@ -21,8 +21,9 @@ let datas =  [
 const Experience = () => {
     return (
         <div className='bg-gray-900'id='experience'>
-            <h3 className='font-Roboto text-5xl font-extrabold text-center pt-10 text-gray-900'>WORKED WITH</h3>
-            <div className='flex bg-white bg-opacity-90 rounded-lg  justify-between items-center container mx-auto '>
+           <div className=' bg-white bg-opacity-90 rounded-lg container mx-auto mt-20'>
+           <h3 className='font-Roboto  text-5xl font-extrabold text-center pt-20 text-gray-900'>WORKED WITH</h3>
+            <div className='flex  justify-between items-center '>
                 <div>
                     {
                         datas.map((data) => (
@@ -42,6 +43,7 @@ const Experience = () => {
                     <img  data-aos="fade-left"  src="/Image/experience.png" alt="" />
                 </div>
             </div>
+           </div>
         </div>
     );
 };
