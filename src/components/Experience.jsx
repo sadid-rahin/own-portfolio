@@ -20,13 +20,13 @@ let datas =  [
 
 const Experience = () => {
     return (
-        <div className='bg-gray-100'id='experience'>
+        <div className='bg-gray-900'id='experience'>
             <h3 className='font-Roboto text-5xl font-extrabold text-center pt-10 text-gray-900'>WORKED WITH</h3>
-            <div className='flex justify-between items-center container mx-auto '>
+            <div className='flex bg-white bg-opacity-90 rounded-lg  justify-between items-center container mx-auto '>
                 <div>
                     {
                         datas.map((data) => (
-                            <div  data-aos="fade-right"  key={data.anything} className='lg:flex lg:text-left text-center gap-6 items-center'>
+                            <div  data-aos="fade-right"  key={data.anything} className='lg:flex lg:text-left text-center gap-6 items-center px-10 py-5 '>
                                 <div>
                                 <img  className='h-32 w-32 rounded-[100%] mt-5 lg:mx-0 mx-auto'  src={data.picture} alt="" />
                                 </div>

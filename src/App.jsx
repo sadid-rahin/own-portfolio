@@ -12,7 +12,8 @@ import Sidebar from './components/Sidebar';
 function App() {
   return (
     <>
-      <Sidebar />
+     <div className='bg-gray-900'>
+     <Sidebar />
       <Header />
       <Hero />
       <Projects />
@@ -20,6 +21,7 @@ function App() {
       <Experience />
       <About />
       <Contact />
+     </div>
     </>
   );
 }

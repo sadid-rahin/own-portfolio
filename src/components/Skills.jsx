@@ -43,9 +43,9 @@ const Skills = () => {
   ];
 
   return (
-    <section id="skills" className="relative min-h-screen py-20 lg:py-28 font-Roboto bg-skills-background bg-cover bg-no-repeat">
+    <section id="skills" className="relative min-h-screen py-20 lg:py-28 font-Roboto bg-skills-background bg-cover container mx-auto rounded-lg bg-no-repeat">
       {/* Overlay */}
-      <div className="absolute inset-0 bg-black opacity-20"></div>
+      <div className="absolute inset-0 bg-black opacity-10"></div>
 
       <div className="relative z-10">
         <h2 className="text-center text-gray-900 text-5xl font-extrabold mb-10">MY SKILLS</h2>

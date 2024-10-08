@@ -28,8 +28,8 @@ const Projects = () => {
   ];
 
   return (
-    <section id="projects" className="py-20 bg-gray-100 font-Roboto">
-      <h2 className="text-center text-gray-900 text-5xl font-extrabold mb-10">MY PROJECTS</h2>
+    <section id="projects" className="py-20 bg-gray-900 font-Roboto">
+      <h2 className="text-center text-white text-5xl font-extrabold mb-10">MY PROJECTS</h2>
       <div data-aos="fade-right" className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
         {projects.map((project) => (
           <div key={project.id}   className="bg-white rounded-lg shadow-lg p-5 transform hover:scale-105 transition-transform duration-300 ease-in-out">

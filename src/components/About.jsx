@@ -6,7 +6,7 @@ import 'aos/dist/aos.css';
 const About = () => {
   return (
     <section id="about" className="py-20 font-Roboto">
-      <div className="flex justify-around items-center">
+      <div className="flex justify-between items-center container mx-auto py-40 bg-white bg-opacity-90 rounded-lg px-5">
         <div>
           <img
             className=""
